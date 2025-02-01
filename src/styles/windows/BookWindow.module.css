@@ -1,0 +1,30 @@
+.block {
+    padding: 2rem;
+    width: 85%;
+    max-height: 100vh;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.up_line {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_add {
+    width: 12rem;
+    height: 3rem;
+    background-color: #0048ff;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.list {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 3vh;
+}

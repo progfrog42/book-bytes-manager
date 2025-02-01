@@ -1,0 +1,39 @@
+@keyframes spinner {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.wrapper {
+    width: 13rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 1.4rem;
+    background-color: #0459ff;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    fill: rgba(0, 0, 0, 0.6);
+    animation: spinner 800ms linear infinite;
+}

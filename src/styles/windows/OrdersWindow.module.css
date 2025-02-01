@@ -1,0 +1,41 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order {
+    width: 60rem;
+    height: 5rem;
+    display: flex;
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.order:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.number {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.date {
+    margin-left: auto;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.4rem;
+    font-weight: bold;
+}

@@ -1,0 +1,67 @@
+.up_line {
+    display: flex;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.btn_line {
+    display: flex;
+    align-items: center;
+}
+
+.rnd_p {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+
+.rnd_mr {
+    margin-left: 3rem;
+}
+
+.file_p {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.right_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+    border: 0.1rem solid #0459ff;
+    outline: none;
+    border-radius: 1rem;
+    height: 20vh;
+}
+
+.count {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.err {
+    color: red;
+}
+
+.add_book {
+    margin-top: auto;
+    width: 15rem;
+    height: 4rem;
+    background-color: black;
+    font-size: 1.4rem;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0.8rem;
+}
+
+.input_mt {
+    margin-top: 5vh;
+}

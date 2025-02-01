@@ -1,0 +1,36 @@
+.block {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.image {
+    height: 14rem;
+    width: 8.76rem;
+    border-radius: 0.4rem;
+}
+
+.name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.btn {
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.change {
+    color: #5d92ff;
+}
+
+.delete {
+    color: red;
+}

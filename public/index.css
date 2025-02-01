@@ -1,0 +1,39 @@
+@keyframes out-fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+html,
+body {
+    min-width: 320px;
+    font-size: 10px;
+    font-family: 'Wix Madefor Display', sans-serif !important;
+    margin: 0;
+}
+
+input {
+    font-family: 'Wix Madefor Display', sans-serif !important;
+}
+
+div  {
+    transition: all 0.2s;
+}
+
+button {
+    font-family: 'Wix Madefor Display', sans-serif !important;
+    transition: all 0.2s;
+}
+
+p {
+    margin: 0;
+    transition: all 0.2s;
+}
+
+.fd {
+    animation: out-fade 200ms linear forwards;
+}

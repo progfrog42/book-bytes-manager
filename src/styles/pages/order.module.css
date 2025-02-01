@@ -1,0 +1,49 @@
+.block {
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.up_block {
+
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text {
+    font-size: 1.6rem;
+}
+
+.mt {
+    margin-top: 4vh;
+}
+
+.back {
+    color: red;
+    margin-left: auto;
+}
+
+.back:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.wrapper {
+    display: block;
+    flex: 1 0 auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+}

@@ -1,0 +1,48 @@
+.back {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.modal {
+    width: 40rem;
+    height: 20rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 1.6rem;
+}
+
+.under_line {
+    display: flex;
+    margin-top: auto;
+}
+
+.btn {
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.blue {
+    color: #0459ff;
+}
+
+.red {
+    color: red;
+    margin-right: 2rem;
+}

@@ -1,0 +1,13 @@
+.input {
+    font-size: 1.4rem;
+    margin-top: 4rem;
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.err {
+    margin-top: 0.5rem;
+    color: red;
+    font-size: 1rem;
+}

@@ -1,0 +1,24 @@
+@keyframes spinner {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.block {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg {
+    width: 2rem;
+    height: 2rem;
+    fill: rgba(0, 0, 0, 0.6);
+    animation: spinner 800ms linear infinite;
+}

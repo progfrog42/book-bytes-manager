@@ -1,0 +1,21 @@
+.wrapper {
+    width: 30rem;
+    padding: 1rem;
+    border: 0.1rem solid #0459ff;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+}
+.input {
+    width: 100%;
+    background-color: white;
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    color: black;
+}
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}

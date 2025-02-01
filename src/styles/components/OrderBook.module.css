@@ -1,0 +1,20 @@
+.block {
+    width: 80rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.ml_auto {
+    margin-left: auto;
+}
